@@ -1,0 +1,10 @@
+@import url('navbar.css');
+@import url('./shared/class.css');
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
