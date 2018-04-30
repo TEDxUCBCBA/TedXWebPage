@@ -1,0 +1,29 @@
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
