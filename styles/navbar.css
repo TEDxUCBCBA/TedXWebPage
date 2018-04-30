@@ -1,0 +1,34 @@
+#navbar {
+    width: 100%;
+    height: 5em;
+    background-color: black;
+}
+
+.navbar_container {
+    height: 4em;
+    margin: 0.5em;
+}
+
+#navbar_buttons {
+    width: 70%;
+}
+
+#navbar_buttons li {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#navbar_buttons li:hover {
+    background-color: gray;
+}
+
+#navbar_buttons a {
+    line-height: 2em;
+    color: white;
+}
+
+#navbar_logo {
+    width: 20%;
+}
