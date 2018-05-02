@@ -31,4 +31,9 @@
 
 #navbar_logo {
     width: 20%;
+    background-color: pink;
+}
+
+#navbar_logo img {
+ width: 100%;
 }
