@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    #navbar_buttons {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #navbar_logo {
+        width: 25%;
+    } 
+}
+
+@media (max-width: 900px) {
+    #navbar_logo {
+        width: 30%;
+    } 
+}
+
+@media (max-width: 700px) {
+    #navbar_logo {
+        width: 35%;
+    } 
+}
+
+@media (max-width: 600px) {
+    #navbar_logo {
+        width: 40%;
+    } 
+}
+
+@media (max-width: 400px) {
+    #navbar_logo {
+        width: 45%;
+    } 
+}
