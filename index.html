@@ -15,22 +15,42 @@
     <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
 
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/burger-button.js" defer></script>
 
 </head>
 <body>
 
     <div id="navbar" class="fixed relative">
-        <div id="navbar_logo" class="navbar_container left">
+
+        <div id="logo" class="left">
             <img src="./assets/logo.png" alt="" srcset="">
         </div>
-        <ul id="navbar_buttons" class="navbar_container right flex ">
-            <li><a>About Us</a></li>
-            <li><a>Our TEDX</a></li>
-            <li><a>Speakers</a></li>
-            <li><a>Partners</a></li>
-            <li class="border"><a>Apply</a></li>
-            <li><a>Language</a></li>
+
+        <div class="burger-button right">
+                <span class="icon-menu white"></span>
         </div>
+
+        <ul class="right flex menu vertical-menu" >
+            <li class="menu-item">
+                <a href="" class="menu-text">About Us</a>
+                <ul class="sub-menu">
+                    <li class="sub-menu-item"><a href="" class="sub-menu-text">What is Ted?</a></li>
+                    <li class="sub-menu-item"><a href="" class="sub-menu-text">Why TedX?</a></li>
+                    <li class="sub-menu-item"><a href="" class="sub-menu-text">Best Ted Talks?</a></li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="" class="menu-text">Our TEDX</a>
+                <ul class="sub-menu">
+                    <li class="sub-menu-item"><a href="" class="sub-menu-text">Team</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="" class="menu-text">Speakers</a></li>
+            <li class="menu-item"><a href="" class="menu-text">Partners</a></li>
+            <li class="apply-item  border"><a href="" class="menu-text">Apply</a></li>
+            <li class="menu-item"><a href="" class="menu-text">Language</a></li>
+        </ul>
+
     </div>
 
     <div id="wrapper">
@@ -49,7 +69,6 @@
         </div>
         <div class="section our-tedX">
         </div>
-    
     </div>
     
 </body>

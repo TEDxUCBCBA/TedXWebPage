@@ -1,3 +1,7 @@
+.none {
+    display: none !important;
+}
+
 .fixed {
     position: fixed;
 }
@@ -33,4 +37,8 @@
 
 .red {
     color: #E62B1E;
+}
+
+.white {
+    color: white;
 }
