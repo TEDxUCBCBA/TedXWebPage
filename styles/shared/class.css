@@ -35,8 +35,10 @@
     border: 1.5px solid white;
 }
 
+.red {
+    color: #E62B1E;
+}
+
 .white {
     color: white;
 }
-
-
