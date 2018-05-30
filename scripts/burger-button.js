@@ -33,7 +33,7 @@ function query(x) {
     }
 }
 
-let x = window.matchMedia("(max-width: 1200px)");
+let x = window.matchMedia("(max-width: 900px)");
 query(x);
 x.addListener(query);
 burgerButton.addEventListener('click', controlVerticalMenu)
