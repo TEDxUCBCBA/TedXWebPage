@@ -16,6 +16,11 @@
     padding-top: 2em;
 }
 
+.section p {
+    color: white;
+}
+
+
 .cover {
     text-align: center;
     color: white;
