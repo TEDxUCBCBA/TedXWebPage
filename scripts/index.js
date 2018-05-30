@@ -1,3 +1,3 @@
-$(document).ready(function() {
-    $('#wrapper').fullpage();
-});
+// $(document).ready(function() {
+//     $('#wrapper').fullpage();
+// });

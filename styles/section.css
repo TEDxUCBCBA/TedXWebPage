@@ -5,6 +5,12 @@
     position: relative;
 }
 
+.section h1 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
 .cover {
     text-align: center;
     color: white;
@@ -13,12 +19,18 @@
 }
 
 .cover h1 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
     font-weight: bold;
     font-size: 48px;
     margin: 35px 0px 3px;
 }
 
 .cover h2 {
+    position: absolute;
+    top: 60%;
+    left: 39%;
     font-weight: lighter;
     font-size: 27px;
     color: #E62B1E;
