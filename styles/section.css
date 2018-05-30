@@ -5,12 +5,15 @@
     position: relative;
 }
 
+@media(max-height: 600px) {
+    .section {
+        height: 600px;
+    }
+}
+
 .section h1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0; 
+    padding-top: 2em;
 }
 
 .cover {
@@ -22,14 +25,13 @@
 
 #main-title {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
     font-size: 48px;
-    margin: 35px 0px 3px;
 }
 
 #main-subtitle {
