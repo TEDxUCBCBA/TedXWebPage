@@ -7,8 +7,10 @@
 
 .section h1 {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cover {
@@ -18,26 +20,30 @@
     background: url('https://images.unsplash.com/photo-1517909277968-946dd06adf1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fed648f15c6c840ef7bdddf32d696e08&auto=format&fit=crop&w=1350&q=80') 40% no-repeat;
 }
 
-.cover h1 {
+#main-title {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     font-size: 48px;
     margin: 35px 0px 3px;
 }
 
-.cover h2 {
+#main-subtitle {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-weight: lighter;
-    font-size: 27px;
+    font-weight: normal;
+    font-size: 33px;
     color: #E62B1E;
     margin: 2px 0px;
+    -webkit-animation-duration: 0.6s;
 }
 
 .cover .clock-text {
@@ -61,10 +67,6 @@
     border-radius: 3px;
     background: #E62B1E;
     display: inline-block;
-}
-
-#phrase {
-  -webkit-animation-duration: 0.9s;
 }
 
 .about {

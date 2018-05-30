@@ -33,9 +33,9 @@ const switchPhrase = (newPhrase) => {
   });
 };
 
-let title = $('#phrase');
-let phrases = ["Sitting has become the smoking of our generation.",
-               "There's zero correlation between being the best talker and having the best ideas.",
+let title = $('#main-subtitle');
+let phrases = ["Sitting has become the smoking of our generation",
+               "Follow your dreams",
                "Ideas Worth Spreading"];
 
 window.setInterval(() => {
