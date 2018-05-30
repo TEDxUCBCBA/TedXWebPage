@@ -1,31 +1,19 @@
 // Phrase switcher
 
-$.fn.extend({
-  animate: function(animationName, callback) {
-    var animationEnd = (function(el) {
-      var animations = {
-        animation: 'animationend',
-        OAnimation: 'oAnimationEnd',
-        MozAnimation: 'mozAnimationEnd',
-        WebkitAnimation: 'webkitAnimationEnd',
-      };
+let animationEnd = (function(el) {
+  let animations = {
+    animation: 'animationend',
+    OAnimation: 'oAnimationEnd',
+    MozAnimation: 'mozAnimationEnd',
+    WebkitAnimation: 'webkitAnimationEnd',
+  };
 
-      for (var t in animations) {
-        if (el.style[t] !== undefined) {
-          return animations[t];
-        }
-      }
-    })(document.createElement('div'));
-
-    this.addClass('animated ' + animationName).one(animationEnd, function() {
-      $(this).removeClass('animated ' + animationName);
-
-      if (typeof callback === 'function') callback();
-    });
-
-    return this;
-  },
-});
+  for (let t in animations) {
+    if (el.style[t] !== undefined) {
+      return animations[t];
+    }
+  }
+})(document.createElement('div'));
 
 const refreshRate = 3000;
 
@@ -36,9 +24,12 @@ const nextPhrase = (data) => {
 };
 
 const switchPhrase = (newPhrase) => {
-  title.animate('fadeOut', () => {
+  title.addClass('animated ' + 'fadeOut').one(animationEnd, () => {
+    title.removeClass('animated ' + 'fadeOut');
     title.text(newPhrase);
-    title.animate('fadeIn');
+    title.addClass('animated ' + 'fadeIn').one(animationEnd, () => {
+      title.removeClass('animated ' + 'fadeIn');
+    });
   });
 };
 
