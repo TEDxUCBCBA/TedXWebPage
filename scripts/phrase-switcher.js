@@ -1,4 +1,3 @@
-// Phrase switcher
 
 let animationEnd = (function(el) {
   let animations = {
