@@ -20,10 +20,14 @@
     left: 0;
 }
 
-.middle {
+
+.middle { 
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 .flex {
     display: flex;
@@ -31,18 +35,12 @@
     justify-content: center;
 }
 
-.border {
-    border: 1.5px solid white;
-}
-
 .red {
     color: #E62B1E;
 }
 
-.white {
-    color: white;
-}
-
-.center {
+.center { 
     text-align: center;
 }
+
+
