@@ -7,108 +7,91 @@
     <title>TEDxUCBCochabamba</title>
     <link rel="stylesheet" href="./styles/main.css">
 
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- fullpage.js -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" /> -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
-    <!-- icon -->
+
+    <!-- particlejs  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./lib/particle.js" defer></script>
+
+    <!-- icon tab -->
     <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
 
     <!-- scrpts -->
     <script src="./scripts/index.js"></script>
-    <script src="./scripts/burger-button.js" defer></script>
     <script src="./scripts/smooth-scroll.js" defer></script>
     <script src="./scripts/phrase-switcher.js" defer></script>
 
 </head>
 <body>
-
-    <div id="navbar" class="fixed relative">
-
-        <div id="logo" class="left">
-            <img src="./assets/logo.png" alt="" srcset="">
-        </div>
-
-        <div class="burger-button right">
-                <span class="icon-menu white"></span>
-        </div>
-
-        <ul class="right flex menu vertical-menu" >
-            <li class="menu-item">
-                <a href="#what-is-ted" class="menu-text">About Us</a>
-                <ul class="sub-menu">
-                    <li class="sub-menu-item"><a href="#what-is-ted" class="sub-menu-text">What is TED?</a></li>
-                    <li class="sub-menu-item"><a href="#why-tedx" class="sub-menu-text">Why TEDx?</a></li>
-                    <li class="sub-menu-item"><a href="#best-ted-talks" class="sub-menu-text">Best TED Talks</a></li>
-                </ul>
-            </li>
-            <li class="menu-item">
-                <a href="#out-event" class="menu-text">Our TEDx</a>
-                <ul class="sub-menu">
-                    <li class="sub-menu-item"><a href="#our-event" class="sub-menu-text">At UCB Cochabamba</a></li>
-                    <li class="sub-menu-item"><a href="#team" class="sub-menu-text">Team</a></li>
-                    <li class="sub-menu-item"><a href="#when-where" class="sub-menu-text">When and Where</a></li>
-                </ul>
-            </li>
-            <li class="menu-item"><a href="#speakers" class="menu-text">Speakers</a></li>
-            <li class="menu-item"><a href="#partners" class="menu-text">Partners</a></li>
-            <li class="apply-item  border"><a href="" class="menu-text">Apply</a></li>
-            <li class="menu-item"><a href="#final" class="menu-text">Language</a></li>
-        </ul>
-
-    </div>
-
-    <div id="wrapper">
-        <div class="section cover">
-            <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
-            <h2 id="main-subtitle">Ideas Worth Spreading</h2>
-        </div>
-
-        <div id="what-is-ted" class="section about">
-            <div class="center"><h1>What is TEDx?</h1></div>
-            <p>TED is a non-profit organization, which aims to bring off different
-                types of conferences in California, USA. At this powerful talks they
-                bring together some of the most important thinkers and
-                entrepreneurs in the world to share the most passionate ideas.
-                TED began in 1984 as a conference where Technology,
-                Entertainment and Design converged, and today covers almost all
-                topics from science, art, politics, education, culture, business to
-                global issues in more than 100 languages. All of this, in order to
-                support new initiatives and proposals that can create a significant
-                change in the world.</p>
-        </div>
-
-        <div id="why-tedx" class="section about">
-            <div class="center"><h1>Why TEDx?</h1></div>
-        </div>
-
-        <div id="best-ted-talks" class="section about">
-            <div class="center"><h1>Handpicked for you</h1></div>
-        </div>
-
-        <div id="our-event" class="section about">
-            <div class="center"><h1>TEDxUCBCochabamba</h1></div>
-        </div>
-
-        <div id="team" class="section our-tedX">
-            <div class="center"><h1>Teamwork</h1></div>
-        </div>
-
-        <div id="when-where" class="section our-tedX">
-            <div class="center"><h1>When and Where?</h1></div>
-        </div>
-
-        <div id="speakers" class="section our-tedX">
-            <div class="center"><h1>Speakers</h1></div>
-        </div>
-
-        <div id="partners" class="section our-tedX">
-            <div class="center"><h1>They made our event possible</h1></div>
-        </div>
-    </div>
     
+        <div id="particles-js" class="relative center">
+            <div class="middle">
+                <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
+                <h2 id="main-subtitle">Ideas Worth Spreading</h2>
+            </div>
+        </div>
+ 
+        <div class="section">
+            <div class="container">
+                <h2 class="title center">What is TEDx?</h2>
+                <p>TED is a non-profit organization, which aims to bring off different
+                    types of conferences in California, USA. At this powerful talks they
+                    bring together some of the most important thinkers and
+                    entrepreneurs in the world to share the most passionate ideas.
+                    TED began in 1984 as a conference where Technology,
+                    Entertainment and Design converged, and today covers almost all
+                    topics from science, art, politics, education, culture, business to
+                    global issues in more than 100 languages. All of this, in order to
+                    support new initiatives and proposals that can create a significant
+                    change in the world.
+                </p>
+            </div>
+        </div> 
+
+        <div class="section">
+            <div class="container">
+                    <h2 class="title center">Why TEDx?</h2>
+            </div>
+        </div>
+
+        <div class="section"> 
+            <div class="container">
+                <h2 class="title center">Hadpicked for you</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <h2 class="title center">TEDxUCBCochabamba</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <h2 class="title center">Teamwork</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <h2 class="title center">When and Where?</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="contianer">
+                <h2 class="title center">Speakers</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <h2 class="title center">They made our event possible</h2>
+            </div>
+        </div>
 </body>
 </html> 
