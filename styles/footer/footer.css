@@ -1,0 +1,47 @@
+:root {
+    --container-height: 6em; 
+    --container-social-height: 6em;
+    --gray: #1A1A1A;
+}
+
+.container-footer {
+    height: calc( var(--container-height) + var( --container-social-height) + 7em );
+    position: relative;
+    background-color: var(--gray) !important;
+}
+
+.container-logo{
+    width: 15em;
+    height: var(--container-height);
+    top: 3em;
+    left: 2em;
+    position: absolute;
+    background-image: url('../../assets/images/logo2.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.container-info {
+    width: 20%;
+    height: var(--container-height);
+    top: 5em;
+    right: 2em;
+    position: absolute;
+    cursor: pointer;
+}
+
+.container-social{
+    width: 27%;
+    height: var(--container-social-height);
+    top: calc(var(--container-height) + 6em);
+    left: 2em;
+    position: absolute;
+}
+
+.credits-container {
+    width: 22em;
+    height: 2em;
+    top: calc( var(--container-height) + var( --container-social-height) + 3.9em );
+    right: 2em;
+    position: absolute;
+}
