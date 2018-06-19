@@ -8,6 +8,7 @@
 
 /* footer */
 @import url('./footer/footer.css');
+@import url('./footer/responsive-footer.css');
 
 @import url('icons.css');
 @import url('./clock.css');
