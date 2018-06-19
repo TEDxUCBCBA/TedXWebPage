@@ -1,96 +1,133 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TEDxUCBCochabamba</title>
-    <link rel="stylesheet" href="./styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TEDxUCBCochabamba</title>
+  <link rel="stylesheet" href="./styles/main.css">
 
-    <!-- bulma -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <!-- bulma -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
 
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- particlejs  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <!-- particlejs  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 
-    <!-- icon tab -->
-    <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
+  <!-- icon tab -->
+  <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
 
-    <!-- scrpts -->
-    <script src="./scripts/index.js"></script>
-    <script src="./scripts/smooth-scroll.js" defer></script>
-    <script src="./scripts/phrase-switcher.js" defer></script>
+  <!-- scrpts -->
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/smooth-scroll.js" defer></script>
+  <script src="./scripts/phrase-switcher.js" defer></script>
 
 </head>
 <body>
-    
-        <div id="particles-js" class="relative center">
-            <div class="middle">
-                <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
-                <h2 id="main-subtitle">Ideas Worth Spreading</h2>
-            </div>
-        </div>
- 
-        <div class="section">
-            <div class="container">
-                <h2 class="title center">What is TEDx?</h2>
-                <p>TED is a non-profit organization, which aims to bring off different
-                    types of conferences in California, USA. At this powerful talks they
-                    bring together some of the most important thinkers and
-                    entrepreneurs in the world to share the most passionate ideas.
-                    TED began in 1984 as a conference where Technology,
-                    Entertainment and Design converged, and today covers almost all
-                    topics from science, art, politics, education, culture, business to
-                    global issues in more than 100 languages. All of this, in order to
-                    support new initiatives and proposals that can create a significant
-                    change in the world.
-                </p>
-            </div>
-        </div> 
+  <nav class="navbar is-transparent" role="navigation" aria-label="dropdown navigation">
+    <a class="navbar-item">
+      <img src="assets/logo.png" alt="TEDxUCBCochabamba" width="112" height="28">
+    </a>
 
-        <div class="section">
-            <div class="container">
-                    <h2 class="title center">Why TEDx?</h2>
-            </div>
+    <div class="navbar-menu">
+      
+      <div class="navbar-start"> 
+        <div id="about" class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-item">About</a>
+          <div class="navbar-dropdown is-boxed">
+            <a href="#what-is-ted" class="navbar-item">What is TED?</a>
+            <a href="#why-ted" class="navbar-item">Why TED?</a>
+            <hr class="navbar-divider">
+            <a href="#best-talks" class="navbar-item">Best TED Talks</a>
+          </div>
         </div>
+        <div id="tedx" class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-item">TEDx</a>
+          <div class="navbar-dropdown is-boxed">
+            <a href="#at-ucb" class="navbar-item">At UCB-CBA</a>
+            <a href="#when-where" class="navbar-item">When?</a>
+            <a href="#when-where" class="navbar-item">Where?</a>
+          </div>
+        </div>
+      </div>
 
-        <div class="section"> 
-            <div class="container">
-                <h2 class="title center">Hadpicked for you</h2>
-            </div>
-        </div>
+      <div class="navbar-end"> 
+        <a href="#speakers" class="navbar-item">Speakers</a>
+        <a href="#team" class="navbar-item">Team</a>
+        <a href="#partners" class="navbar-item">Partners</a>
+        <a href="#" class="navbar-item is-primary">Apply</a>
+        <a class="navbar-item ">EN</a>
+      </div>
 
-        <div class="section">
-            <div class="container">
-                <h2 class="title center">TEDxUCBCochabamba</h2>
-            </div>
-        </div>
+    </div>
+  </nav>
 
-        <div class="section">
-            <div class="container">
-                <h2 class="title center">Teamwork</h2>
-            </div>
-        </div>
+  <div id="particles-js" class="relative center">
+      <div class="middle">
+          <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
+          <h2 id="main-subtitle">Ideas Worth Spreading</h2>
+      </div>
+  </div>
 
-        <div class="section">
-            <div class="container">
-                <h2 class="title center">When and Where?</h2>
-            </div>
-        </div>
+  <div id="what-is-ted" class="section">
+      <div class="container">
+          <h2 class="title center">What is TEDx?</h2>
+          <p>TED is a non-profit organization, which aims to bring off different
+              types of conferences in California, USA. At this powerful talks they
+              bring together some of the most important thinkers and
+              entrepreneurs in the world to share the most passionate ideas.
+              TED began in 1984 as a conference where Technology,
+              Entertainment and Design converged, and today covers almost all
+              topics from science, art, politics, education, culture, business to
+              global issues in more than 100 languages. All of this, in order to
+              support new initiatives and proposals that can create a significant
+              change in the world.
+          </p>
+      </div>
+  </div> 
 
-        <div class="section">
-            <div class="contianer">
-                <h2 class="title center">Speakers</h2>
-            </div>
-        </div>
+  <div id="why-ted" class="section">
+      <div class="container">
+              <h2 class="title center">Why TEDx?</h2>
+      </div>
+  </div>
 
-        <div class="section">
-            <div class="container">
-                <h2 class="title center">They made our event possible</h2>
-            </div>
-        </div>
+  <div id="best-talks" class="section"> 
+      <div class="container">
+          <h2 class="title center">Handpicked for you</h2>
+      </div>
+  </div>
+
+  <div id="at-ucb" class="section">
+      <div class="container">
+          <h2 class="title center">TEDxUCBCochabamba</h2>
+      </div>
+  </div>
+
+  <div id="when-where" class="section">
+      <div class="container">
+          <h2 class="title center">When and Where?</h2>
+      </div>
+  </div>
+
+  <div id="speakers" class="section">
+      <div class="contianer">
+          <h2 class="title center">Speakers</h2>
+      </div>
+  </div>
+
+  <div id="team" class="section">
+      <div class="container">
+          <h2 class="title center">Teamwork</h2>
+      </div>
+  </div>
+
+  <div id="partners" class="section">
+      <div class="container">
+          <h2 class="title center">They made our event possible</h2>
+      </div>
+  </div>
 </body>
 </html> 
