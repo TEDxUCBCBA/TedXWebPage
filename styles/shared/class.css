@@ -28,7 +28,6 @@
     transform: translate(-50%, -50%);
 }
 
-
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -36,11 +35,22 @@
 }
 
 .red {
-    color: #E62B1E;
+    color: #E62B1E !important;
 }
 
 .center { 
     text-align: center;
 }
 
+.align-right { 
+    text-align: right;
+}
 
+.is-white { 
+    color: white;
+}
+
+.is-middle-size { 
+    font-size: 22px;
+    padding: 0 0.5em 0 0.5em;
+}
