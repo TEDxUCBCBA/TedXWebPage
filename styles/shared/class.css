@@ -20,9 +20,12 @@
     left: 0;
 }
 
-.middle {
+
+.middle { 
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .flex {
@@ -31,18 +34,23 @@
     justify-content: center;
 }
 
-.border {
-    border: 1.5px solid white;
-}
-
 .red {
-    color: #E62B1E;
+    color: #E62B1E !important;
 }
 
-.white {
+.center { 
+    text-align: center;
+}
+
+.align-right { 
+    text-align: right;
+}
+
+.is-white { 
     color: white;
 }
 
-.center {
-    text-align: center;
+.is-middle-size { 
+    font-size: 22px;
+    padding: 0 0.5em 0 0.5em;
 }

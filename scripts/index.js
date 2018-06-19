@@ -1,3 +1,3 @@
-// $(document).ready(function() {
-//     $('#wrapper').fullpage();
-// });
+particlesJS.load('particles-js', './scripts/particles.json', function() {
+
+});
