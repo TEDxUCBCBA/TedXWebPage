@@ -34,6 +34,18 @@
     justify-content: center;
 }
 
+.image-container {
+    width: 110%;
+    height: 22em;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .red {
     color: #E62B1E !important;
 }

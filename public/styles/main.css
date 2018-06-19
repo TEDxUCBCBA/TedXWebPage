@@ -6,11 +6,19 @@
 @import url('./cover/cover.css');
 @import url('./cover/particles.css');
 
+/*content */
+@import url('./content/content.css');
+
+/* footer */
+@import url('./footer/footer.css');
+@import url('./footer/responsive-footer.css');
+
 @import url('icons.css');
 @import url('./clock.css');
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 
 /* reset */
 
@@ -20,5 +28,10 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+hr { 
+    margin: 1em 0 1em 0 !important;
+    height: 1px !important;
 }
