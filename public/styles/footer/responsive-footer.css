@@ -36,5 +36,9 @@
         top: 15em;
         width: 40%;
     }
+
+    .container-info a {
+        font-size: 12px;
+    }
 }
 
