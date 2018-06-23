@@ -1,0 +1,31 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-burger {
+  color: #0098BE;
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: #fafafa;
+  color: #E62B1E;
+}
+
+.is-primary {
+  background-color: #F3574B !important; 
+}
+
+.is-primary:hover {
+  background-color: #E62B1E !important; 
+}
+
+.is-info {
+  background-color: #0098BE !important;
+}
+
+.is-info:hover {
+  background-color: #007A97 !important;
+}

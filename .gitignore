@@ -1,1 +1,6 @@
-*node_modules/8
+node_modules/
+package-lock.json
+
+.sass-cache/
+public/styles/bulma-styles.css
+public/styles/bulma-styles.css.map

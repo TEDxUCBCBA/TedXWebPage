@@ -9,7 +9,9 @@
 
   <!-- external libraries -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <link rel="stylesheet" href="./styles/bulma-override.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 
   <!-- icon tab -->
@@ -61,14 +63,21 @@
         <a href="#speakers" class="navbar-item">Speakers</a>
         <a href="#team" class="navbar-item">Team</a>
         <a href="#partners" class="navbar-item">Partners</a>
-        <a href="#" class="navbar-item is-primary">Apply</a>
-        <a class="navbar-item ">EN</a>
+        <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-primary">
+              <span>Apply</span>
+              <span class="icon" href="#"'><i class="fas fa-arrow-right"></i></span>
+            </a>
+          </p>
+        </div>
       </div>
 
     </div>
   </nav>
 
-  <div id="particles-js" class="relative center">
+  <div id="particles-js" class="section center">
     <div class="middle">
       <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
       <h2 id="main-subtitle">Ideas Worth Spreading</h2>
