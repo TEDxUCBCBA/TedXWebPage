@@ -29,3 +29,29 @@ a.navbar-item.is-active,
 .is-info:hover {
   background-color: #007A97 !important;
 }
+
+.card {
+  width: 60%;
+  margin:2em;
+  box-shadow: 5px 10px;
+  box-shadow: 10px 10px 51px -4px rgba(0,0,0,0.42);
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin:2em;
+  }
+}
+
+.fa-calendar-plus {
+  padding-left: 1em;
+}
+
+.card-header-title{
+  font-size: 1.8em;
+}
+
+.title {
+  font-size:3em;
+}
