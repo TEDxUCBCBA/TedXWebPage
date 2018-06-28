@@ -20,3 +20,20 @@
     font-size: 14px;
     color: rgb(143, 143, 143);
 }
+
+.phrase{
+    padding-top: 6em;
+    color: white;
+    font-size: 1.3em;
+}
+
+@media (max-width: 600px) {
+    .phrase{
+        padding-top: 5em;
+    }
+}
+
+
+.is-black {
+    color: #1A1A1A;
+}
