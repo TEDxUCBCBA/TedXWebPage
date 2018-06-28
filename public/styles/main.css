@@ -35,12 +35,3 @@ hr {
     margin: 1em 0 1em 0 !important;
     height: 1px !important;
 }
-
-*:focus {
-    outline: none;
-}
-
-#googleMap {
-    width:100%;
-    height:400px;
-}

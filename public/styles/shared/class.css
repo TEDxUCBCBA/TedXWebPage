@@ -54,11 +54,6 @@
     text-align: center;
 }
 
-.is-forced-center { 
-    display: flex;
-    justify-content: center;
-}
-
 .align-right { 
     text-align: right;
 }
@@ -70,9 +65,4 @@
 .is-middle-size { 
     font-size: 22px;
     padding: 0 0.5em 0 0.5em;
-}
-
-.space{
-    width: 100%;
-    height: 2em;
 }
