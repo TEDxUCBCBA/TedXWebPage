@@ -1,8 +1,24 @@
 .image-cover-type1{
-    background-image: url("../../assets/images/cover3.jpg") !important;
+    background-image: url("../../assets/images/covers/12.jpg") !important;
     background-size: cover;
 }
 
+.image-cover-type2{
+    background-image: url("../../assets/images/covers/23.jpg") !important;
+    background-size: cover;
+}
 
+.image-cover-type3{
+    background-image: url("../../assets/images/covers/20.jpg") !important;
+    background-size: cover;
+}
 
+.image-cover-type4{
+    background-image: url("../../assets/images/covers/7.jpg") !important;
+    background-size: cover;
+}
 
+.image-cover-type5{
+    background-image: url("../../assets/images/covers/16.jpg") !important;
+    background-size: cover;
+}

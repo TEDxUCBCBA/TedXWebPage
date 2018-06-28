@@ -39,6 +39,13 @@
     height: 22em;
 }
 
+@media (max-width: 600px) {
+    .image-container {
+        height: 15em;
+    }
+}
+
+
 .parallax {
     background-attachment: fixed;
     background-position: center;
