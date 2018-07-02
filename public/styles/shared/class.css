@@ -62,6 +62,17 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 600px){
+
+    .parallax{
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: auto;
+   }
+}
+
 .red {
     color: #E62B1E !important;
 }
