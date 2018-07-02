@@ -39,18 +39,39 @@
     height: 22em;
 }
 
+.is-small {
+    height: 10em;
+}
+
+
 @media (max-width: 600px) {
     .image-container {
         height: 15em;
     }
+    .is-small {
+        height: 5em;
+    }
+    
 }
-
-
+.hide {
+    display: none !important;
+}
 .parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .parallax{
+
+        left:0;
+        top:0; 
+    }
 }
 
 .red {
@@ -71,7 +92,7 @@
 }
 
 .is-white { 
-    color: white;
+    color: white !important; 
 }
 
 .is-middle-size { 

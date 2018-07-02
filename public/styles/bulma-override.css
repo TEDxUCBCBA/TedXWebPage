@@ -12,6 +12,7 @@ a.navbar-item.is-active,
 .navbar-link.is-active {
   background-color: #fafafa;
   color: #E62B1E;
+  border-radius: 5px;
 }
 
 .is-primary-hover:hover {
@@ -19,7 +20,11 @@ a.navbar-item.is-active,
 }
 
 .is-primary {
-  background-color: #F3574B !important;
+  background-color: #FF0000 !important;
+}
+
+.hero {
+  background-color: #1A1A1A !important;
 }
 
 .is-info {
