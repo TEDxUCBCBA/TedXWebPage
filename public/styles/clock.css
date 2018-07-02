@@ -38,3 +38,20 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  #clock-div .time-number {
+    font-size: 1.4em;
+    margin-left: 1px;
+    min-width: 37px;
+    padding: 4px 2px;
+  }
+
+  #clock-div {
+    width: 100vw;
+  }
+
+  #clock-div > span {
+    font-size: 0.9em;
+  }
+}
+
