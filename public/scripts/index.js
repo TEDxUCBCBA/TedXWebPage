@@ -1,6 +1,3 @@
-
-
-
 $(window).on("load", function() {
     const loader = document.querySelector('.is-page-loader');
     const nav = document.querySelector('nav');

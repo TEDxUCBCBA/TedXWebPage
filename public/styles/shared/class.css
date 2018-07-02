@@ -43,6 +43,13 @@
     height: 10em;
 }
 
+.is-active {
+    right: 0;
+    position: absolute;
+    width: 30% !important;
+}
+
+
 
 @media (max-width: 600px) {
     .image-container {
@@ -51,6 +58,13 @@
     .is-small {
         height: 5em;
     }
+
+    .is-active {
+        right: 0;
+        position: absolute;
+        width: 50% !important;
+    }
+    
     
 }
 .hide {
@@ -70,7 +84,6 @@
     background-color: yellow;
 
 }
-
 
 
 @media screen and (max-width: 600px){
