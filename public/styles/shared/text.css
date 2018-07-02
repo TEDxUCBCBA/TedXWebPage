@@ -33,6 +33,12 @@
     color: #7c7c7c !important;
 }
 
+@media (max-width: 600px) {
+    .is-email-information {
+        font-size: 11px !important;
+    }
+}
+
 .phrase{
     padding-top: 6em;
     color: white;
