@@ -13,6 +13,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <!-- Maps API-->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFVw_YZzKeqK2ffUrs1PnVUgnRekKTbUE&callback=myMap" defer></script>
@@ -24,12 +26,14 @@
   <!-- local scripts -->
   <script src="./scripts/index.js"></script>
   <script src="./scripts/smooth-scroll.js" defer></script>
-  <script src="./scripts/phrase-switcher.js" defer></script>
   <script src="./scripts/bulma.js" defer></script>
+  <script src="./scripts/countdown.js" defer></script>
+  <script src="./scripts/phrase-switcher.js" defer></script>
+
   
 </head>
 <body>
-  <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+  <nav id="navbar" class="navbar is-fixed-top" role="navigation" aria-label="dropdown navigation">
     
     <div class="navbar-brand">
       <a href="#" class="navbar-item">
@@ -43,35 +47,32 @@
     </div>
 
     <div class="navbar-menu">
-
-      <div class="navbar-start"> 
+      <div class="navbar-end">
+        <a href="#flip-the-system" class="navbar-item">Dale Vuelta!</a>
         <div id="about" class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-item">TED</a>
           <div class="navbar-dropdown is-boxed">
             <a href="#what-is-ted" class="navbar-item">¿Qué es TED?</a>
-            <a href="#why-ted" class="navbar-item">¿Por qué TED?</a>
-            <hr class="navbar-divider">
-            <a href="#best-talks" class="navbar-item">Lo mejor de TED</a>
+            <a href="#why-ted" class="navbar-item">¿Por qué TEDx?</a>
+            <!-- <hr class="navbar-divider"> -->
+            <!-- <a href="#best-talks" class="navbar-item">Lo mejor de TED</a> -->
           </div>
         </div>
         <div id="tedx" class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-item">TEDx</a>
+          <a class="navbar-item">Nuestro TEDx</a>
           <div class="navbar-dropdown is-boxed">
             <a href="#at-ucb" class="navbar-item">En Cochabamba</a>
-            <a href="#when-where" class="navbar-item">Cuándo?</a>
+            <a href="#when-where" class="navbar-item">¿Cuándo?</a>
             <a href="#when-where" class="navbar-item">¿Dónde?</a>
           </div>
         </div>
-      </div>
-
-      <div class="navbar-end"> 
-        <a href="#speakers" class="navbar-item">Conferencistas</a>
-        <a href="#team" class="navbar-item">Equipo</a>
-        <a href="#partners" class="navbar-item">Patrocinadores</a>
+        <a href="#speakers" class="navbar-item">Oradores</a>
+        <!-- <a href="#team" class="navbar-item">Equipo</a> -->
+        <!-- <a href="#partners" class="navbar-item">Patrocinadores</a> -->
         <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="button is-primary">
+            <a class="button is-primary is-primary-hover">
               <span>Aplicar</span>
               <span class="icon" href="#"><i class="fas fa-arrow-right"></i></span>
             </a>
@@ -84,57 +85,69 @@
 
   <div id="particles-js" class="section center">
     <div class="middle">
-      <h1 id="main-title">TED<span class="red">x</span> UCB Cochabamba</h1>
-      <h2 id="main-subtitle">Difundiendo ideas</h2>
+      <h1 id="main-title"><span class="red">TEDx</span> UCB Cochabamba</h1>
+      <p class="clock-text">Comienza en</p>
+      <div id="clock-div">
+        <span class="days time-number"></span> <span>días</span>
+        <span class="hours time-number"></span> <span>hrs</span>
+        <span class="minutes time-number"></span> <span>mins</span>
+        <span class="seconds time-number"></span> <span>segs</span>
+      </div>
     </div>
   </div>
 
-  <div class="image-container image-cover-type2 parallax">
-      <p class="phrase center">¿Quieres ser parte del cambio?</p>
+  <section id="flip-the-system" class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title center"><i class="far fa-hand-point-right"></i> Dale la vuelta al sistema <i class="far fa-hand-point-left"></i></h2>
+        <h2 id="main-subtitle" class="center">Algo grande se viene</h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="image-container image-cover-mountain-2 parallax">
+      <!-- <p class="phrase center">¿Quieres ser parte del cambio?</p> -->
   </div>
 
   <div id="at-ucb" class="section">
     <div class="container">
-      <!-- <h2 class="title center">Flip the system</h2> -->
-      <p>TEDxUCBCochabamba es la primera versión universitaria realizada en la Universidad Católica Boliviana “San Pablo” Regional Cochabamba. Con este evento queremos ser un punto de encuentro para diversas conversaciones y nuevas ideas que marquen diferencia en nuestro país y en el mundo.</p>
-      <p>Somos una organización sin fines de lucro, conformada por voluntarios. Nuestra misión es compartir ideas transformadoras</p>
+      <h2 class="title center">TEDxUCBCochabamba</h2>
+      <div class="content">
+        <p>TEDxUCBCochabamba es la primera versión universitaria realizada en la Universidad Católica Boliviana “San Pablo” Regional Cochabamba. Con este evento queremos ser un punto de encuentro para diversas conversaciones y nuevas ideas que marquen diferencia en nuestro país y en el mundo.</p>
+        <p>Somos una organización sin fines de lucro, conformada por voluntarios. Nuestra misión es compartir ideas transformadoras</p>
+      </div>
     </div>
   </div>
 
-  <div class="image-container image-cover-type5 parallax">
-      <p class="phrase center">Flip the system</p>
-  </div>
+  <div class="image-container image-cover-mountain-3 parallax"></div>
 
   <div id="what-is-ted" class="section">
     <div class="container">
-      <h2 class="title center">¿Qué es TEDx?</h2>
-      <p>TED es una organización sin fines de lucro, que tiene el objetivo de llevar a cabo diversas conferencias principalmente en California, EEUU. En ellas se reúnen algunos de los pensadores y emprendedores más importantes del mundo para poder compartir aquellas cosas que más les apasionan: las ideas.</p>
-      <p>Comenzó en 1984 como una conferencia en la que convergieron temas principales sobre Tecnología, Entretenimiento y Diseño. Hoy en día, TED cubre casi todo, desde temas sobre ciencia, arte, política, educación, cultura, negocios hasta asuntos globales en más de 100 idiomas. Todo con el objetivo principal de apoyar nuevas iniciativas y propuestas que puedan crear un cambio significativo en el mundo.</p>
+      <h2 class="title center">¿Qué es TED?</h2>
+      <div class="content">
+        <p>TED es una organización sin fines de lucro, que tiene el objetivo de llevar a cabo diversas conferencias principalmente en California, EEUU. En ellas se reúnen algunos de los pensadores y emprendedores más importantes del mundo para poder compartir aquellas cosas que más les apasionan: las ideas.</p>
+        <p>Comenzó en 1984 como una conferencia en la que convergieron temas principales sobre Tecnología, Entretenimiento y Diseño. Hoy en día, TED cubre casi todo, desde temas sobre ciencia, arte, política, educación, cultura, negocios hasta asuntos globales en más de 100 idiomas. Todo con el objetivo principal de apoyar nuevas iniciativas y propuestas que puedan crear un cambio significativo en el mundo.</p>
+      </div>
     </div>
   </div> 
-
-  <div class="image-container image-cover-type1 parallax">
-    <p class="phrase center">Difundir ideas</p>
-  </div>
-
   <div id="why-ted" class="section">
     <div class="container">
       <h2 class="title center">¿Por qué TEDx?</h2>
-      <p>A partir del año 2009 TED puso en vigencia el programa
-      TEDx, donde la X representa un “evento organizado
-      independientemente”. Lo cual permite a personas de todo el mundo
-      a tener una experiencia TED con el objetivo de difundir nuevas
-      ideas.</p>
-      <p>Este programa permite la autorización de una licencia gratuita que
-      otorga la posibilidad de organizar un evento local bajo los
-      lineamientos correspondientes de TED y así poder llegar a
-      diferentes comunidades en el mundo entero.</p>
+      <div class="content">
+        <p>A partir del año 2009 TED puso en vigencia el programa
+        TEDx, donde la X representa un “evento organizado
+        independientemente”. Lo cual permite a personas de todo el mundo
+        a tener una experiencia TED con el objetivo de difundir nuevas
+        ideas.</p>
+        <p>Este programa permite la autorización de una licencia gratuita que
+        otorga la posibilidad de organizar un evento local bajo los
+        lineamientos correspondientes de TED y así poder llegar a
+        diferentes comunidades en el mundo entero.</p>
+      </div>
     </div>
   </div>
 
-  <div class="image-container image-cover-type4 parallax">
-    <p class="phrase center">Cambiar mentalidades</p>
-  </div>
+  <div class="image-container image-cover-mountain-4 parallax"></div>
 
   <!-- <div id="best-talks" class="section"> 
     <div class="container">
@@ -145,13 +158,29 @@
   <div id="when-where" class="section">
 
     <div class="container center">
-      <h2 class="title">Dónde y cúando?</h2>
+      <h2 class="title">¿Cuándo y dónde?</h2>
     </div>
 
     <div class="space">
-
     </div>
 
+    <div class="container is-forced-center">
+      <div class="card center">
+          <div class="card-header ">
+            <div class="card-header-title is-forced-center">
+              <p>11 de Agosto de 2018</p>
+            </div>
+          </div>
+          <div class="card-content">
+            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=TEDXUCBCochabamba&dates=20180811T225000Z/20180811T224000Z&details=Facebook:+www.facebook.com/TedxUcb/&location=Universidad+Católica+Boliviana+San Pablo+-+Cochabamba,+M.M.Marques,+Cochabamba,+Bolivia&sf=true&output=xml"
+              target="_blank" rel="nofollow"
+              class="button is-info">
+              <span>Guardar la fecha</span>
+              <span><i class="far fa-calendar-plus"></i></span>
+             </a>
+          </div>
+        </div>
+    </div>
     <div class="container is-forced-center ">
       <div class="card ">
         <div class="card-image">
@@ -170,49 +199,30 @@
             </div>
           </div>
 
-          <div class="content">
-            Calle M. Marquez esquina Parque Jorge Trigo Andia
-            <br>
-            <span class="fa fa-phone"></span> 591-4-4293100 / <span class="fa fa-envelope"></span> infoucatolica@ucbcba.edu.bo
+          <p>Calle M. Marquez esquina Parque Jorge Trigo Andia</p>
+          <br>
+          <div class="has-text-right">
+            <p><span class="fa fa-phone"></span> 591-4-4293100</p>
+            <p><span class="fa fa-envelope"></span> infoucatolica@ucbcba.edu.bo</p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container is-forced-center">
-      <div class="card center">
-        
-          <div class="card-header ">
-            <div class="card-header-title is-forced-center">
-              <p>11 de Agosto de 2018</p>
-            </div>
-          </div>
-  
-          <div class="card-content">
-            <a  href="https://www.google.com/calendar/render?action=TEMPLATE&text=TEDXUCBCochabamba&dates=20180811T225000Z/20180811T224000Z&details=Facebook:+www.facebook.com/TedxUcb/&location=Universidad+Católica+Boliviana+San Pablo+-+Cochabamba,+M.M.Marques,+Cochabamba,+Bolivia&sf=true&output=xml"
-              target="_blank" rel="nofollow"
-              class="button is-info"> 
-              <span>Guardar la fecha</span>
-              <span><i class="far fa-calendar-plus"></i></span>
-             </a>
-          </div>
-        </div>
-        
-    </div>
-
-
-
   </div>
 
-  <!-- <div id="speakers" class="section">
-    <div class="container">
-      <h2 class="title center">Oradores</h2>
-    </div>
-  </div> -->
-
-  <div class="image-container image-cover-type3 parallax">
-    <p class="phrase center ">Los oradores se anunciarán muy pronto</p>
+  <div class="image-container image-cover-mountain-1 parallax">
   </div>
+
+  <section id="speakers" class="hero is-primary is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title center">Oradores</h2>
+        <h2 class="subtitle center animated pulse infinite">
+          ¡Muy pronto!
+        </h2>
+      </div>
+    </div>
+  </section>
 
 
   <!-- <div id="team" class="section">

@@ -1,22 +1,40 @@
-.cover .clock-text {
-    font-weight: lighter;
-    margin: 35px 0px 5px;
+.clock-text {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 20px 0px 15px;
+  line-height: 1.2;
 }
 
-#clock-div{
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 36px;
+#clock-div {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+}
+
+#clock-div .time-number {
+  display: inline-block;
+  padding: 4px 4px;
+  margin-left: 2px;
+  min-width: 39px;
+  border-radius: 18px;
+  background: #fafafa;
+  font-size: 1.8em;
 }
 
 #clock-div > span {
-  font-size: 25px;
+  font-size: 1.2em;
 }
 
-#clock-div .number{
-    padding: 6px;
-    border-radius: 3px;
-    background: #E62B1E;
-    display: inline-block;
+@media screen and (max-width: 700px) {
+  #clock-div .time-number {
+    font-size: 1.4em;
+    margin-left: 1px;
+    min-width: 37px;
+    padding: 4px 2px;
+  }
+
+  #clock-div > span {
+    font-size: 0.9em;
+  }
 }
+

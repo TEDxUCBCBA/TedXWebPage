@@ -1,24 +1,19 @@
-.image-cover-type1{
-    background-image: url("../../assets/images/covers/12.jpg") !important;
+.image-cover-mountain-1{
+    background-image: url("../../assets/images/covers/15.jpg") !important;
     background-size: cover;
 }
 
-.image-cover-type2{
-    background-image: url("../../assets/images/covers/23.jpg") !important;
-    background-size: cover;
-}
-
-.image-cover-type3{
-    background-image: url("../../assets/images/covers/20.jpg") !important;
-    background-size: cover;
-}
-
-.image-cover-type4{
-    background-image: url("../../assets/images/covers/7.jpg") !important;
-    background-size: cover;
-}
-
-.image-cover-type5{
+.image-cover-mountain-2{
     background-image: url("../../assets/images/covers/16.jpg") !important;
+    background-size: cover;
+}
+
+.image-cover-mountain-3{
+    background-image: url("../../assets/images/covers/17.jpg") !important;
+    background-size: cover;
+}
+
+.image-cover-mountain-4{
+    background-image: url("../../assets/images/covers/20.jpg") !important;
     background-size: cover;
 }
