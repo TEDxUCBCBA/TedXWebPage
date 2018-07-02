@@ -62,15 +62,15 @@
     background-size: cover;
 }
 
+
+
 @media screen and (max-width: 600px){
 
     .parallax{
-    -moz-background-size: auto;
-    -webkit-background-size: auto;
-    background-attachment: scroll;
-    background-position: top;
-    background-size: auto;
-   }
+  
+        left:0;
+        top:0; 
+    }
 }
 
 .red {
