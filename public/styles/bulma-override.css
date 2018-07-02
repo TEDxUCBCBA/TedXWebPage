@@ -15,11 +15,11 @@ a.navbar-item.is-active,
 }
 
 .is-primary-hover:hover {
-  background-color: #E62B1E !important;
+  background-color: rgb(212, 2, 2) !important;
 }
 
 .is-primary {
-  background-color: #F3574B !important;
+  background-color: #FF0000 !important;
 }
 
 .is-info {
