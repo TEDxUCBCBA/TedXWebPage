@@ -23,6 +23,10 @@ a.navbar-item.is-active,
   background-color: #FF0000 !important;
 }
 
+.hero {
+  background-color: #1A1A1A !important;
+}
+
 .is-info {
   background-color: #0098BE !important;
 }
