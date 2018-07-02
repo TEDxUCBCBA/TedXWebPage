@@ -1,6 +1,11 @@
 .navbar {
+  width: 100vw !important;
   background-color: transparent;
 }
+
+
+
+
 
 .navbar-burger {
   color: #0098BE;

@@ -49,6 +49,7 @@
 
 @media (max-width:600px) {
     .credits-container {
+        width: 300px !important;
         text-align: left;
     }
 }

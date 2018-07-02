@@ -29,6 +29,10 @@
     color: white;
 }
 
+.is-black {
+    color: #1A1A1A;
+}
+
 .is-email-information:hover {
     color: #7c7c7c !important;
 }
