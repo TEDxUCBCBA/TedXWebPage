@@ -23,19 +23,19 @@ const nextPhrase = (data) => {
 };
 
 const switchPhrase = (newPhrase) => {
-  title.addClass('animated ' + 'fadeOut').one(animationEnd, () => {
-    title.removeClass('animated ' + 'fadeOut');
+  title.addClass('animated ' + 'flipOutX').one(animationEnd, () => {
+    title.removeClass('animated ' + 'flipOutX');
     title.text(newPhrase);
-    title.addClass('animated ' + 'fadeIn').one(animationEnd, () => {
-      title.removeClass('animated ' + 'fadeIn');
+    title.addClass('animated ' + 'flipInX').one(animationEnd, () => {
+      title.removeClass('animated ' + 'flipInX');
     });
   });
 };
 
 let title = $('#main-subtitle');
-let phrases = ["Sitting has become the smoking of our generation",
-               "Follow your dreams",
-               "Ideas Worth Spreading"];
+let phrases = ["Ideas transformadoras y resistentes",
+               "Ideas altamente contagiosas",
+               "Vuélcalo!"];
 
 window.setInterval(() => {
   switchPhrase(nextPhrase(phrases));
