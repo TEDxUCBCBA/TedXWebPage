@@ -53,8 +53,9 @@
     }
     
 }
-
-
+.hide {
+    display: none !important;
+}
 .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -67,7 +68,7 @@
 @media screen and (max-width: 600px){
 
     .parallax{
-  
+
         left:0;
         top:0; 
     }
