@@ -12,10 +12,11 @@ a.navbar-item.is-active,
 .navbar-link.is-active {
   background-color: #fafafa;
   color: #E62B1E;
+  border-radius: 5px;
 }
 
 .is-primary-hover:hover {
-  background-color: rgb(212, 2, 2) !important;
+  background-color: #E62B1E !important;
 }
 
 .is-primary {
