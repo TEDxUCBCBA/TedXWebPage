@@ -16,6 +16,14 @@
     color: white;
 }
 
+.is-information-style a{
+    color: white;
+}
+
+.is-information-style a:hover{
+    color: #FF0000;
+}
+
 .is-email-information {
     font-size: 14px;
     color: rgb(143, 143, 143);
