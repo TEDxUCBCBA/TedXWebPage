@@ -3,10 +3,6 @@
   background-color: transparent;
 }
 
-
-
-
-
 .navbar-burger {
   color: #0098BE;
 }
@@ -17,7 +13,7 @@ a.navbar-item.is-active,
 .navbar-link.is-active {
   background-color: #fafafa;
   color: #E62B1E;
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .is-primary-hover:hover {
@@ -41,7 +37,7 @@ a.navbar-item.is-active,
 }
 
 .card {
-  width: 60%;
+  width: 70%;
   margin: 1em;
   box-shadow: 5px 10px;
   box-shadow: 10px 10px 51px -4px rgba(0,0,0,0.42);
