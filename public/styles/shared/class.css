@@ -20,7 +20,6 @@
     left: 0;
 }
 
-
 .middle { 
     position: absolute;
     top: 50%;
@@ -43,13 +42,11 @@
     height: 10em;
 }
 
-.is-active {
+.is-active-menu {
     right: 0;
     position: absolute;
     width: 30% !important;
 }
-
-
 
 @media (max-width: 600px) {
     .image-container {
@@ -59,13 +56,11 @@
         height: 5em;
     }
 
-    .is-active {
+    .is-active-menu {
         right: 0;
         position: absolute;
         width: 50% !important;
     }
-    
-    
 }
 .hide {
     display: none !important;
@@ -87,9 +82,7 @@
 
 
 @media screen and (max-width: 600px){
-
     .parallax{
-
         left:0;
         top:0; 
     }

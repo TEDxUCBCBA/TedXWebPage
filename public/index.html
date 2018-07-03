@@ -38,7 +38,7 @@
   <nav id="navbar" class="navbar is-fixed-top hide" role="navigation" aria-label="dropdown navigation">
     
     <div class="navbar-brand">
-      <a href="#" class="navbar-item">
+      <a href="#particles-js" class="navbar-item">
         <img src="./assets/images/logo.png" alt="TEDxUCBCochabamba">
       </a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -74,9 +74,9 @@
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
-              <a href="https://tedxucbcochabamba.typeform.com/to/ygVIdw" target="blank" class="button is-primary is-primary-hover">
+              <a target="blank" class="toggle-pre-inscription button is-primary is-primary-hover">
                 <span>Aplicar</span>
-                <span class="icon" href="#"><i class="fas fa-arrow-right"></i></span>
+                <span class="icon" href="#"><i class="fas fa-arrow-alt-circle-right"></i></span>
               </a>
             </p>
           </div>
@@ -117,9 +117,7 @@
         </div>
       </div>
     </section>
-    
-    
-    
+
     <div id="at-ucb" class="section">
       <div class="container">
         <h2 class="title center">TEDxUCBCochabamba</h2>
@@ -128,12 +126,37 @@
           <p>Somos una <strong>organización sin fines de lucro,</strong> conformada por voluntarios. Nuestra misión es compartir ideas transformadoras.</p>
         </div>
         <div class="content center">
-          <a href="https://tedxucbcochabamba.typeform.com/to/ygVIdw" class="button is-medium is-info" target="blank">
+          <a class="toggle-pre-inscription button is-medium is-info" target="blank">
             <span>Quiero Asistir</span>
             <span class="icon is-small">
               <i class="fas fa-arrow-alt-circle-right"></i>
             </span>
           </a>
+        </div>
+      </div>
+      <div id="pre-inscription-modal" class="modal">
+        <div class="toggle-pre-inscription modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title"><i class="fas fa-exclamation-triangle"></i> Importante</p>
+            <button class="delete toggle-pre-inscription" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <div class="content">
+              <p>
+              Estás aplicando para ser partícipe de la primera versión de <strong>TEDxUCBCochabamba</strong>, el evento TED independiente que tendrá lugar el día sábado 11 de agosto de 2018 en las instalaciones de la Universidad Católica Boliviana “San Pablo”.</p>
+              <p>Agradeciendo tu interés, debes tomar en cuenta los siguientes puntos: </p>
+              <ul>
+                <li>Por motivos de la licencia, TEDxUCBCochabamba <strong>tiene un límite de 100 participantes</strong>. Llenar el formulario de aplicación no es un comprobante suficiente para el ingreso al evento. Días previos al acontecimiento, los aplicantes seleccionados serán notificados mediante un correo de confirmación.</li>
+                <li>Si deseas asistir a TEDxUCBCochabamba debes estar dispuesto/a a permanecer durante todo el evento, que se llevará acabo <strong>desde las 9:00 hrs. hasta las 16:00 hrs. del sábado 11 de agosto de 2018</strong>. Si tu agenda no te permite hacerlo, te pedimos no llenar el formulario y dar la oportunidad a aquellos que si.</li>
+              </ul>
+            </div>
+          </section>
+          <footer class="modal-card-foot align-right">
+            <div class="buttons">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScpE65McRiQz_OyFo8Zh_6X6dI-YPWQ6OqJwG-CBA3m2xZVvA/viewform" class="toggle-pre-inscription button is-info" target="blank">Aplicar</a>
+            <button class="toggle-pre-inscription button">Cancelar</button>
+          </footer>
         </div>
       </div>
     </div>
@@ -190,12 +213,11 @@
               </div>
             </div>
             <div class="card-content">
-              <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=TEDXUCBCochabamba&dates=20180811T225000Z/20180811T224000Z&details=Facebook:+www.facebook.com/TedxUcb/&location=Universidad+Católica+Boliviana+San Pablo+-+Cochabamba,+M.M.Marques,+Cochabamba,+Bolivia&sf=true&output=xml"
+              <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=TEDxUCBCochabamba&details=TEDxUCBCochabamba+es+la+primera+versi%C3%B3n+universitaria+realizada+en+la+Cat%C3%B3lica+Boliviana+%E2%80%9CSan+Pablo%E2%80%9D+Regional+Cochabamba.+Con+este+evento+queremos+ser+un+punto+de+encuentro+para+conversaciones+y+nuevas+ideas+que+marquen+diferencia+en+nuestro+pa%C3%ADs+y+en+el+mundo.%0A%0AM%C3%A1s+informaci%C3%B3n%3A+https%3A%2F%2Fwww.facebook.com%2FTEDxUCBCochabamba%2F&location=Universidad+Cat%C3%B3lica+Boliviana+%22San+Pablo%22%2C+M.+M.+Marques%2C+Campus+Tupuraya%2C+Cochabamba%2C+Bolivia.&dates=20180811T130000Z%2F20180811T200000Z"
                 target="_blank" rel="nofollow"
                 class="button is-info">
-                <span>Guardar la fecha</span>
-                <span><i class="far fa-calendar-plus"></i></span>
-                </a>
+              <span>Guarda la Fecha</span><i class="far fa-calendar-plus"></i>
+              </a>
             </div>
           </div>
       </div>
@@ -228,7 +250,6 @@
       </div>
     </div>
     
-    
     <section id="speakers" class="hero is-medium">
       <div class="hero-body">
         <div class="container">
@@ -241,8 +262,6 @@
     </section>
     
     <div class="image-container image-cover-mountain-1 parallax"></div>
-    
-    
     
     <!-- <div id="team" class="section">
       <div class="container">
@@ -259,8 +278,7 @@
     </div> -->
     
     <footer class="container-footer">
-      <div class="container-logo"></div>         
-  
+      <div class="container-logo"></div>
       <div class="container-info align-right">
         <p class="is-email-information">Contacto:</p>
         <a class="is-email-information" href="mailto:info@tedxucbcochabamba">info@tedxucbcochabamba.com</a>
@@ -272,13 +290,13 @@
         <hr>
         <p class="is-information-style">Derechos reservados © TEDxUCBCochabamba 2018.</p>
       </div>
-  
+
       <div class="credits-container">
         <p class="is-information-style"> Desarrollado por <a href="https://twitter.com/lean_guardia" target="blank">@lean_guardia</a> y <a href="https://twitter.com/whiletruedothis" target="blank">@whiletruedothis</a></p>
         <p class="is-information-style">Fotografias por <a href="https://www.instagram.com/rodpics_" target="blank">Rodrigo Condori</a></p>
       </div>
     </footer>
-    
+
   </div>
 </body>
 </html> 
