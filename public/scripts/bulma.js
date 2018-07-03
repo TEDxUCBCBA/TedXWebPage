@@ -1,8 +1,8 @@
 let navbarBurger = $(".navbar-burger");
 let navbarMenu = $(".navbar-menu");
 navbarBurger.click((event) => {
-  navbarBurger.toggleClass('is-active');
-  navbarMenu.toggleClass('is-active');
+  navbarBurger.toggleClass('is-active is-active-menu');
+  navbarMenu.toggleClass('is-active is-active-menu');
 });
 
 let navbar = $("#navbar");
@@ -20,3 +20,9 @@ window.onscroll = () => {
     navbar.css("background-color", "transparent");
   }
 };
+
+let applyButtons = $(".toggle-pre-inscription");
+let inscriptionModal = $("#pre-inscription-modal");
+applyButtons.click((event) => {
+  inscriptionModal.toggleClass('is-active');
+});
