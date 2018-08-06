@@ -1,6 +1,9 @@
 /* shared */
 @import url('shared/class.css');
 @import url('shared/text.css');
+@import url('shared/color.css');
+@import url('shared/position.css');
+@import url('shared/effects.css');
 
 /* cover */
 @import url('./cover/cover.css');
@@ -8,23 +11,24 @@
 
 /*content */
 @import url('./content/content.css');
+@import url('./content/speakers.css');
 
 /* footer */
 @import url('./footer/footer.css');
 @import url('./footer/responsive-footer.css');
 
+/* others */
 @import url('icons.css');
 @import url('./clock.css');
-
-/* loader */
 @import url('./loading.css');
+@import url('./modal.css');
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Catamaran');
-/* reset */
 
+/* reset */
 body {
     margin: 0;
     font-family: 'Catamaran', sans-serif !important;

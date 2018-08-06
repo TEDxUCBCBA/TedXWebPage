@@ -14,8 +14,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'UA-121885329-1');
+    gtag('config', 'UA-121803438-1');
   </script>
 
 
@@ -26,9 +25,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
   <!-- Maps API-->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFVw_YZzKeqK2ffUrs1PnVUgnRekKTbUE&callback=myMap" defer></script>
   <script src="./scripts/map.js"></script>
@@ -42,6 +41,7 @@
   <script src="./scripts/bulma.js" defer></script>
   <script src="./scripts/countdown.js" defer></script>
   <script src="./scripts/phrase-switcher.js" defer></script>
+  <script src="./scripts/speakers.js" defer></script>
 
   
 </head>
@@ -277,14 +277,123 @@
       </div>
     </div>
     
-    <section id="speakers" class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h2 class="title center is-white">Oradores</h2>
-          <h2 class="subtitle center animated pulse infinite is-white">
-            ¡Muy pronto!
-          </h2>
+    <section id="speakers" class="section is-brackground-gray">
+
+      <div class="container">
+        <h2 class="title is-white is-centered">Oradores</h2>
+      </div>
+
+
+      <div class="container flex padding-top-20">
+
+        <div id="adri-zurita" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/adri-zurita.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Adriana Zurita</p>
+          </div>
         </div>
+  
+        <div id="amples-regani" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/amples-regani.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Amples Regani</p>
+          </div>
+        </div>
+
+        <div id="andres-palacios" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/andres-palacios.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Andres Palacios</p>
+          </div>
+        </div>
+        
+        <div id="davor-pavisic" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/davor-pavisic.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Davor Pavisic</p>
+          </div>
+        </div>
+
+        <div id="erna-jugstain" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/erna-jugstain.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Erna Jugstein</p>
+          </div>
+        </div>
+
+        <div id="esteban-quispe" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/esteban-quispe.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Esteban Quispe</p>
+          </div>
+        </div>
+
+        <div id="esther-coronel" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/esther-coronel.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Esther Coronel</p>
+          </div>
+        </div>
+
+        <div id="lesly-zerna" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/lesly-zerna.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Lesly Zerna</p>
+          </div>
+        </div>
+
+        <div id="manuel-laredo" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/manuel-laredo.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Manuel Laredo</p>
+          </div>
+        </div>
+
+        <div id="raul-ibarnegaray" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/raul-ibarnegaray.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Raul Ybarnegaray</p>
+          </div>
+        </div>
+
+        <div id="steve-camargo" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/steve-camargo.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Steve Camargo</p>
+          </div>
+        </div>
+
+        <div id="tessa-henwood" class="speaker-container can-click">
+          <div class="speaker-photo-container">
+            <img src="./assets/images/speakers/tessa-henwood.jpg" class="is-circle has-shade">
+          </div>
+          <div class="speaker-name-container">
+            <p class="is-white is-centered">Tessa Henwood-Mitchell</p>
+          </div>
+        </div>
+
       </div>
     </section>
     
@@ -325,5 +434,6 @@
     </footer>
 
   </div>
+
 </body>
 </html> 
