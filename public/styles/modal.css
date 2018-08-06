@@ -1,0 +1,12 @@
+.w3-modal-content, .w3-container, .w3-button {
+    border-radius: 5px !important;
+    
+}
+
+.w3-modal-content {
+    box-shadow: 7px 9px 31px -5px rgba(0,0,0,0.63);
+}
+
+.w3-container p {
+    padding: 1.5em;
+}
