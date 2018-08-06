@@ -1,0 +1,16 @@
+.can-click {
+    cursor: pointer;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.has-shade {
+    box-shadow: 7px 9px 31px -5px rgba(0,0,0,0.63);
+}
+
