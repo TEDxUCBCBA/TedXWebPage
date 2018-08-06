@@ -56,3 +56,7 @@ a.navbar-item.is-active,
 .card-header-title{
   font-size: 1.8em;
 }
+
+.no-margin-bot {
+  margin-bottom: 0px !important;
+}
