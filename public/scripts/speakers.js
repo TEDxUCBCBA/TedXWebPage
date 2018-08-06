@@ -107,10 +107,10 @@ function createModal(speakerName, speakerDescription, talkName, talkDescription)
 
     function addLogic() {
         modal.style.display = 'block';
-        navbarElment.style.display = 'none';
+        navbarElment.style.opacity = '0';
         closeButton.addEventListener('click', () => {
              modal.style.display = 'none';
-             navbarElment.style.display = 'block';
+             navbarElment.style.opacity = '1';
          });
     }
 
