@@ -10,6 +10,11 @@
         height: 170px;
         margin: 1em;
     }
+
+    .speaker-container:hover {
+        width: 125px !important;
+        transition: width 0.5s;
+    }
 }
 
 .speaker-photo-container {
@@ -17,12 +22,9 @@
     height: 75%;
 }
 
-.speaker-photo-container:hover {
-    width: 110%;
-    height: 85%;
-
-    transition: width 0.2s;
-    transition: height 0.2s;
+.speaker-container:hover {
+    width: 160px;
+    transition: width 0.5s;
 }
 
 .speaker-name-container {
