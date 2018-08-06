@@ -1,6 +1,9 @@
 /* shared */
 @import url('shared/class.css');
 @import url('shared/text.css');
+@import url('shared/color.css');
+@import url('shared/position.css');
+@import url('shared/effects.css');
 
 /* cover */
 @import url('./cover/cover.css');
@@ -8,6 +11,7 @@
 
 /*content */
 @import url('./content/content.css');
+@import url('./content/speakers.css');
 
 /* footer */
 @import url('./footer/footer.css');

@@ -1,0 +1,51 @@
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.middle { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.is-centered { 
+    text-align: center;
+}
+
+.center { 
+    text-align: center;
+}
+
+.is-forced-center { 
+    display: flex;
+    justify-content: center;
+}
+
+.align-right { 
+    text-align: right;
+}
