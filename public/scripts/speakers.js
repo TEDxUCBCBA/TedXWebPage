@@ -33,7 +33,7 @@ function showInfo(event) {
             break;
 
         case 'esther-coronel':
-            createModal('esther-coronel', 'Con 35 años de experiencia en las áreas de Business, Educación y Desarrollo Personal, ella es conferencista y mentora de líderes a nivel internacional. Es entrenadora en PNL Programación Neurolingüística certificada por Richard Bandler y muchos más. Considera que los ingredientes imprescindibles que llevan al éxito son: claridad, confianza y autoestima.Tema de su charla: Innovación y Creatividad: Una urgente necesidad Esta misma estará enfocada en como cambiar la manera de percibir y pensar en relación al trabajo ¿Mayor motivación? Su propia esencia¿Mayor característica? Para ella son muchas, como ser visionaria, persistente, creativa e innovadora')
+            createModal('Esther-coronel', 'Con 35 años de experiencia en las áreas de Business, Educación y Desarrollo Personal, ella es conferencista y mentora de líderes a nivel internacional. Es entrenadora en PNL Programación Neurolingüística certificada por Richard Bandler y muchos más. Considera que los ingredientes imprescindibles que llevan al éxito son: claridad, confianza y autoestima.Tema de su charla: Innovación y Creatividad: Una urgente necesidad Esta misma estará enfocada en como cambiar la manera de percibir y pensar en relación al trabajo ¿Mayor motivación? Su propia esencia¿Mayor característica? Para ella son muchas, como ser visionaria, persistente, creativa e innovadora')
             break;
 
         case 'lesly-zerna':
