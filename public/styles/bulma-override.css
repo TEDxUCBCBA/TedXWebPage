@@ -60,3 +60,7 @@ a.navbar-item.is-active,
 .no-margin-bot {
   margin-bottom: 0px !important;
 }
+
+.no-padding-bot {
+  padding-bottom: 0px !important;
+}
