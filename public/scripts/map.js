@@ -1,19 +1,19 @@
 
-function myMap() {
+// function myMap() {
     
-    var ucb = new google.maps.LatLng(-17.371794, -66.143639);
+//     var ucb = new google.maps.LatLng(-17.371794, -66.143639);
 
-    const map = document.getElementById("googleMap");
+//     const map = document.getElementById("googleMap");
 
-    let mapProp = {
-        center: ucb,
-        zoom:17,
-        mapTypeControl: false,
-        scaleControl: false
-    };
+//     let mapProp = {
+//         center: ucb,
+//         zoom:17,
+//         mapTypeControl: false,
+//         scaleControl: false
+//     };
 
-    let myMap = new google.maps.Map(map, mapProp);
+//     let myMap = new google.maps.Map(map, mapProp);
 
-    let marker = new google.maps.Marker({position:ucb});
-    marker.setMap(myMap);
-};
+//     let marker = new google.maps.Marker({position:ucb});
+//     marker.setMap(myMap);
+// };
