@@ -29,8 +29,20 @@ function initializeClock(id, endtime) {
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
     if (t.total <= 0) {
-      clearInterval(timeinterval);
+      const liveButton = document.createElement('a');
+      liveButton.classList.add("button");
+      liveButton.classList.add("live");
+      liveButton.href = "https://www.facebook.com/TEDxUCBCochabamba/"
+      liveButton.target = "blank"
+      liveButton.textContent = "VIVO"
+
+      const clock = document.querySelector('#clock-div');
+      const text = document.querySelector('.clock-text');
+      clock.style = "display:none";
+      text.textContent = "Ver el evento en ";
+      text.appendChild(liveButton);
     }
+
   }
 
   updateClock();

@@ -64,3 +64,8 @@ a.navbar-item.is-active,
 .no-padding-bot {
   padding-bottom: 0px !important;
 }
+
+.live {
+  background-color: red !important;
+  color: white !important;
+}
