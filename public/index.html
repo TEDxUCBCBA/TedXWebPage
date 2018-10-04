@@ -39,7 +39,7 @@
   <script src="./scripts/index.js"></script>
   <script src="./scripts/smooth-scroll.js" defer></script>
   <script src="./scripts/bulma.js" defer></script>
-  <script src="./scripts/countdown.js" defer></script>
+  <!-- <script src="./scripts/countdown.js" defer></script> -->
   <script src="./scripts/phrase-switcher.js" defer></script>
   <script src="./scripts/speakers.js" defer></script>
 
@@ -104,15 +104,9 @@
       <div class="middle">
         <img src="./assets/images/cover.png">
         <!-- <h1 id="main-title"><span class="red">TEDx</span> UCB Cochabamba</h1> -->
-        <p class="clock-text">Comienza en</p>
-        <div id="clock-div">
-          <span class="days time-number"></span> <span>días</span>
-          <span class="hours time-number"></span> <span>hrs</span>
-          <span class="minutes time-number"></span> <span>mins</span>
-          <span class="seconds time-number"></span> <span>segs</span>
+        <p class="clock-text">The System has been flipped</p>
         </div>
       </div>
-    </div>
     
     <div class="image-container image-cover-mountain-2 parallax">
         <!-- <p class="phrase center">¿Quieres ser parte del cambio?</p> -->
@@ -123,7 +117,7 @@
         <div  class="container">
           <h2 class="title center">Dale la vuelta al sistema</h2>
           <div class="content center">
-            <img src="./assets/images/logocara.png" class="is-image-in-center" style="height: 100px;" alt="">
+            <img src="./assets/images/logocara.png" style="height: 100px;" alt="">
             <h2 id="main-subtitle" class="center is-white is-changing-text">Algo grande se viene</h2>
           </div>
         </div>
@@ -405,56 +399,62 @@
     <div id="partners" class="section">
       <div class="container">
         <h2 class="title center">Auspiciadores</h2>
-        <div class="content center padding-top-20">
+        <div class="content padding-top-20">
           <!-- Package 1 -->
-          <div class="columns">
-            <div class="column is-one-quarter">
-              <figure class="image is-package-1">
-                <img src="./assets/images/sponsors/package1/ucb.gif">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <div class="tile is-child is-flex is-flex-centered">
+                <figure class='image'>
+                  <img class="is-package-1" src="./assets/images/sponsors/package1/ucb.gif">
               </figure>
             </div>
-            <div class="column is-half">
-              <figure class="image is-package-1">
-                <img src="./assets/images/sponsors/package1/viva.png">
+            </div>
+            <div class="tile is-vertical is-6 is-parent">
+              <div class="tile is-child is-flex is-flex-centered">
+                <figure class='image'>
+                  <img class="is-package-1" src="./assets/images/sponsors/package1/viva.png">
               </figure>
-              <figure class="image is-package-1">
-                <img src="./assets/images/sponsors/package1/americaniris.png">
+              </div>
+              <div class="tile is-child is-flex is-flex-centered">
+                <figure class='image'>
+                  <img class="is-package-1" src="./assets/images/sponsors/package1/americaniris.png">
               </figure>
             </div>
-            <div class="column is-one-quarter">
-              <figure class="image is-package-1">
-                <img src="./assets/images/sponsors/package1/evolutivamedia.png">
+            </div>
+            <div class="tile is-parent">
+              <div class="tile is-child is-flex is-flex-centered">
+                <figure class='image'>
+                  <img class="is-package-1" src="./assets/images/sponsors/package1/evolutivamedia.png">
               </figure>
             </div>
+          </div>
           </div>
           <!-- End Package 1 -->
           <hr>
           <!-- Package 2 -->
-          <div class="columns">
-            <div class="column is-3 is-offset-5">
+          <div class="is-flex is-flex-centered">
               <figure class="image is-package-2">
-                <img src="./assets/images/sponsors/package2/goja.png">
+              <img src="./assets/images/sponsors/package2/goja1.png">
               </figure>
             </div>
-          </div>
           <!-- End Package 2 -->
           <hr>
           <!-- Package 3 -->
           <div class="columns">
-            <div class="column">
+            <div class="column is-flex-centered">
               <figure class="image is-package-3 no-margin-bot">
                 <img src="./assets/images/sponsors/package3/360workplace.png">
               </figure>
               <figure class="image is-package-3">
-                <img src="./assets/images/sponsors/package3/valkure.png">
+                <img src="./assets/images/sponsors/package3/sabrovida.png">
               </figure>
             </div>
             <div class="column">
-              <figure class="image is-package-3">
+              <figure class="image is-package-3 no-margin-bot">
                 <img src="./assets/images/sponsors/package3/boa.png">
               </figure>
               <figure class="image is-package-3 no-margin-bot">
-                <img src="./assets/images/sponsors/package3/fitnesspub.png">
+                <img src="./assets/images/sponsors/package3/cocacola.png">
               </figure>
               <figure class="image is-package-3">
                   <img src="./assets/images/sponsors/package3/deseom.png">
@@ -462,10 +462,10 @@
             </div>
             <div class="column">
               <figure class="image is-package-3 no-margin-bot">
-                <img src="./assets/images/sponsors/package3/cocacola.png">
+                  <img src="./assets/images/sponsors/package3/fitnesspub.png">
               </figure>
               <figure class="image is-package-3">
-                <img src="./assets/images/sponsors/package3/sabrovida.png">
+                <img src="./assets/images/sponsors/package3/valkure.png">
               </figure>
             </div>
           </div>
