@@ -64,3 +64,23 @@ a.navbar-item.is-active,
 .no-padding-bot {
   padding-bottom: 0px !important;
 }
+
+.is-package-1 {
+  max-width:330px;
+}
+
+.is-package-2 {
+  max-width:256px;
+}
+
+.is-package-3 {
+  object-fit: cover;
+  max-width:245px;
+  max-height:245px;
+}
+
+.is-package-4 {
+  object-fit: cover;
+  max-width:210px;
+  max-height:210px;
+}
