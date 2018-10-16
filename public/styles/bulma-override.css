@@ -83,5 +83,6 @@ a.navbar-item.is-active,
 }
 
 .is-package-4 {
-  max-width:210px;
+  max-width:160px;
+  min-width:60px;
 }
